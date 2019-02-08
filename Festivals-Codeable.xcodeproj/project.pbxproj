@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28878482220D0D56000B1A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28878481220D0D56000B1A2F /* AppDelegate.swift */; };
+		28878484220D0D56000B1A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28878483220D0D56000B1A2F /* ViewController.swift */; };
+		28878487220D0D56000B1A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28878485220D0D56000B1A2F /* Main.storyboard */; };
+		2887848A220D0D56000B1A2F /* Festivals_Codeable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28878488220D0D56000B1A2F /* Festivals_Codeable.xcdatamodeld */; };
+		2887848C220D0D57000B1A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2887848B220D0D57000B1A2F /* Assets.xcassets */; };
+		2887848F220D0D57000B1A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2887848D220D0D57000B1A2F /* LaunchScreen.storyboard */; };
+		2887849A220D0D58000B1A2F /* Festivals_CodeableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28878499220D0D58000B1A2F /* Festivals_CodeableTests.swift */; };
+		288784A5220D0D58000B1A2F /* Festivals_CodeableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288784A4220D0D58000B1A2F /* Festivals_CodeableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28878496220D0D58000B1A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28878476220D0D55000B1A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2887847D220D0D55000B1A2F;
+			remoteInfo = "Festivals-Codeable";
+		};
+		288784A1220D0D58000B1A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28878476220D0D55000B1A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2887847D220D0D55000B1A2F;
+			remoteInfo = "Festivals-Codeable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2887847E220D0D55000B1A2F /* Festivals-Codeable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Festivals-Codeable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28878481220D0D56000B1A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28878483220D0D56000B1A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28878486220D0D56000B1A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28878489220D0D56000B1A2F /* Festivals_Codeable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Festivals_Codeable.xcdatamodel; sourceTree = "<group>"; };
+		2887848B220D0D57000B1A2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2887848E220D0D57000B1A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28878490220D0D57000B1A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28878495220D0D58000B1A2F /* Festivals-CodeableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Festivals-CodeableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28878499220D0D58000B1A2F /* Festivals_CodeableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Festivals_CodeableTests.swift; sourceTree = "<group>"; };
+		2887849B220D0D58000B1A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288784A0220D0D58000B1A2F /* Festivals-CodeableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Festivals-CodeableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		288784A4220D0D58000B1A2F /* Festivals_CodeableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Festivals_CodeableUITests.swift; sourceTree = "<group>"; };
+		288784A6220D0D58000B1A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2887847B220D0D55000B1A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28878492220D0D58000B1A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2887849D220D0D58000B1A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28878475220D0D55000B1A2F = {
+			isa = PBXGroup;
+			children = (
+				28878480220D0D56000B1A2F /* Festivals-Codeable */,
+				28878498220D0D58000B1A2F /* Festivals-CodeableTests */,
+				288784A3220D0D58000B1A2F /* Festivals-CodeableUITests */,
+				2887847F220D0D56000B1A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2887847F220D0D56000B1A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2887847E220D0D55000B1A2F /* Festivals-Codeable.app */,
+				28878495220D0D58000B1A2F /* Festivals-CodeableTests.xctest */,
+				288784A0220D0D58000B1A2F /* Festivals-CodeableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28878480220D0D56000B1A2F /* Festivals-Codeable */ = {
+			isa = PBXGroup;
+			children = (
+				28878481220D0D56000B1A2F /* AppDelegate.swift */,
+				28878483220D0D56000B1A2F /* ViewController.swift */,
+				28878485220D0D56000B1A2F /* Main.storyboard */,
+				2887848B220D0D57000B1A2F /* Assets.xcassets */,
+				2887848D220D0D57000B1A2F /* LaunchScreen.storyboard */,
+				28878490220D0D57000B1A2F /* Info.plist */,
+				28878488220D0D56000B1A2F /* Festivals_Codeable.xcdatamodeld */,
+			);
+			path = "Festivals-Codeable";
+			sourceTree = "<group>";
+		};
+		28878498220D0D58000B1A2F /* Festivals-CodeableTests */ = {
+			isa = PBXGroup;
+			children = (
+				28878499220D0D58000B1A2F /* Festivals_CodeableTests.swift */,
+				2887849B220D0D58000B1A2F /* Info.plist */,
+			);
+			path = "Festivals-CodeableTests";
+			sourceTree = "<group>";
+		};
+		288784A3220D0D58000B1A2F /* Festivals-CodeableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				288784A4220D0D58000B1A2F /* Festivals_CodeableUITests.swift */,
+				288784A6220D0D58000B1A2F /* Info.plist */,
+			);
+			path = "Festivals-CodeableUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2887847D220D0D55000B1A2F /* Festivals-Codeable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288784A9220D0D58000B1A2F /* Build configuration list for PBXNativeTarget "Festivals-Codeable" */;
+			buildPhases = (
+				2887847A220D0D55000B1A2F /* Sources */,
+				2887847B220D0D55000B1A2F /* Frameworks */,
+				2887847C220D0D55000B1A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Festivals-Codeable";
+			productName = "Festivals-Codeable";
+			productReference = 2887847E220D0D55000B1A2F /* Festivals-Codeable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28878494220D0D58000B1A2F /* Festivals-CodeableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288784AC220D0D58000B1A2F /* Build configuration list for PBXNativeTarget "Festivals-CodeableTests" */;
+			buildPhases = (
+				28878491220D0D58000B1A2F /* Sources */,
+				28878492220D0D58000B1A2F /* Frameworks */,
+				28878493220D0D58000B1A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28878497220D0D58000B1A2F /* PBXTargetDependency */,
+			);
+			name = "Festivals-CodeableTests";
+			productName = "Festivals-CodeableTests";
+			productReference = 28878495220D0D58000B1A2F /* Festivals-CodeableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2887849F220D0D58000B1A2F /* Festivals-CodeableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288784AF220D0D58000B1A2F /* Build configuration list for PBXNativeTarget "Festivals-CodeableUITests" */;
+			buildPhases = (
+				2887849C220D0D58000B1A2F /* Sources */,
+				2887849D220D0D58000B1A2F /* Frameworks */,
+				2887849E220D0D58000B1A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288784A2220D0D58000B1A2F /* PBXTargetDependency */,
+			);
+			name = "Festivals-CodeableUITests";
+			productName = "Festivals-CodeableUITests";
+			productReference = 288784A0220D0D58000B1A2F /* Festivals-CodeableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28878476220D0D55000B1A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Danh Phu Nguyen";
+				TargetAttributes = {
+					2887847D220D0D55000B1A2F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					28878494220D0D58000B1A2F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2887847D220D0D55000B1A2F;
+					};
+					2887849F220D0D58000B1A2F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2887847D220D0D55000B1A2F;
+					};
+				};
+			};
+			buildConfigurationList = 28878479220D0D55000B1A2F /* Build configuration list for PBXProject "Festivals-Codeable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28878475220D0D55000B1A2F;
+			productRefGroup = 2887847F220D0D56000B1A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2887847D220D0D55000B1A2F /* Festivals-Codeable */,
+				28878494220D0D58000B1A2F /* Festivals-CodeableTests */,
+				2887849F220D0D58000B1A2F /* Festivals-CodeableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2887847C220D0D55000B1A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2887848F220D0D57000B1A2F /* LaunchScreen.storyboard in Resources */,
+				2887848C220D0D57000B1A2F /* Assets.xcassets in Resources */,
+				28878487220D0D56000B1A2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28878493220D0D58000B1A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2887849E220D0D58000B1A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2887847A220D0D55000B1A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28878484220D0D56000B1A2F /* ViewController.swift in Sources */,
+				28878482220D0D56000B1A2F /* AppDelegate.swift in Sources */,
+				2887848A220D0D56000B1A2F /* Festivals_Codeable.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28878491220D0D58000B1A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2887849A220D0D58000B1A2F /* Festivals_CodeableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2887849C220D0D58000B1A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288784A5220D0D58000B1A2F /* Festivals_CodeableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28878497220D0D58000B1A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2887847D220D0D55000B1A2F /* Festivals-Codeable */;
+			targetProxy = 28878496220D0D58000B1A2F /* PBXContainerItemProxy */;
+		};
+		288784A2220D0D58000B1A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2887847D220D0D55000B1A2F /* Festivals-Codeable */;
+			targetProxy = 288784A1220D0D58000B1A2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28878485220D0D56000B1A2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28878486220D0D56000B1A2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2887848D220D0D57000B1A2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2887848E220D0D57000B1A2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		288784A7220D0D58000B1A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		288784A8220D0D58000B1A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288784AA220D0D58000B1A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBPU586293;
+				INFOPLIST_FILE = "Festivals-Codeable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanNguyen.Festivals-Codeable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		288784AB220D0D58000B1A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBPU586293;
+				INFOPLIST_FILE = "Festivals-Codeable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanNguyen.Festivals-Codeable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		288784AD220D0D58000B1A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBPU586293;
+				INFOPLIST_FILE = "Festivals-CodeableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanNguyen.Festivals-CodeableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Festivals-Codeable.app/Festivals-Codeable";
+			};
+			name = Debug;
+		};
+		288784AE220D0D58000B1A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBPU586293;
+				INFOPLIST_FILE = "Festivals-CodeableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanNguyen.Festivals-CodeableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Festivals-Codeable.app/Festivals-Codeable";
+			};
+			name = Release;
+		};
+		288784B0220D0D58000B1A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBPU586293;
+				INFOPLIST_FILE = "Festivals-CodeableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanNguyen.Festivals-CodeableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Festivals-Codeable";
+			};
+			name = Debug;
+		};
+		288784B1220D0D58000B1A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBPU586293;
+				INFOPLIST_FILE = "Festivals-CodeableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanNguyen.Festivals-CodeableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Festivals-Codeable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28878479220D0D55000B1A2F /* Build configuration list for PBXProject "Festivals-Codeable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288784A7220D0D58000B1A2F /* Debug */,
+				288784A8220D0D58000B1A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288784A9220D0D58000B1A2F /* Build configuration list for PBXNativeTarget "Festivals-Codeable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288784AA220D0D58000B1A2F /* Debug */,
+				288784AB220D0D58000B1A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288784AC220D0D58000B1A2F /* Build configuration list for PBXNativeTarget "Festivals-CodeableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288784AD220D0D58000B1A2F /* Debug */,
+				288784AE220D0D58000B1A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288784AF220D0D58000B1A2F /* Build configuration list for PBXNativeTarget "Festivals-CodeableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288784B0220D0D58000B1A2F /* Debug */,
+				288784B1220D0D58000B1A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28878488220D0D56000B1A2F /* Festivals_Codeable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28878489220D0D56000B1A2F /* Festivals_Codeable.xcdatamodel */,
+			);
+			currentVersion = 28878489220D0D56000B1A2F /* Festivals_Codeable.xcdatamodel */;
+			path = Festivals_Codeable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28878476220D0D55000B1A2F /* Project object */;
+}

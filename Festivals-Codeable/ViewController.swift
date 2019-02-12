@@ -12,6 +12,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var myTableView = UITableView()
     
+    var festivalData = [Festival]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // setup stuff
@@ -51,6 +53,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 let decoder = JSONDecoder()
                 let decoded = try decoder.decode([Festival].self, from: contents!)
                 print(decoded)
+                festivalData = decoded
+                print(festivalData.count)
                 
             } catch {
                 print(error.localizedDescription)
@@ -68,12 +72,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return festivalData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "yourCell", for: indexPath as IndexPath)
-        cell.textLabel!.text = "\([indexPath.row])"
+        // Gets information inside the array
+//        let festival = festivalData[indexPath.row]
+        cell.textLabel!.text = festivalData[indexPath.row].name
         return cell
     }
 }

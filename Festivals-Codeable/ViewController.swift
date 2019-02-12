@@ -21,6 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         view.addSubview(myTableView)
         tableViewContraints()
         
+        path(forResource: "Festivals", ofType: ".json")
         // Do any additional setup after loading the view, typically from a nib.
         
 //        let path = Bundle.main.path(forResource: "Festival", ofType: ".json")
@@ -37,6 +38,26 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 //            }
 //        }
     }
+    
+    func path(forResource name: String?, ofType extension: String?) {
+        let path = Bundle.main.path(forResource: "Festivals", ofType: ".json")
+        if let path = path {
+            let url = URL(fileURLWithPath: path)
+            let contents = try? Data(contentsOf: url, options: .alwaysMapped)
+            print(url)
+            print(contents)
+            
+            do {
+                let decoder = JSONDecoder()
+                let decoded = try decoder.decode([Festival].self, from: contents!)
+                print(decoded)
+                
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+    }
+
     
     
     

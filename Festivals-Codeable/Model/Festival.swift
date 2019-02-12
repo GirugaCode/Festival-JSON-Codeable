@@ -8,27 +8,21 @@
 
 import Foundation
 
-struct Participant{
+struct Participant: Codable{
     let name: String
     let id: String
 }
 
-struct City {
+struct City: Codable {
     let name: String
     let id: String
 }
 
-enum FestivalType {
-    case music
-    case food
-    case cinema
-}
 
-struct Festival {
-    let date: Date
+struct Festival: Codable {
+    let date: String
     let name: String
     let city: City
     let lineup: [Participant]
-    let type: FestivalType
 }
 
